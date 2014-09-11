@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		955FC10719C1343500680655 /* QuickNBubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955FC10619C1343500680655 /* QuickNBubbleSort.swift */; };
+		95B6D9BC19C0328200B5C13A /* data1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 95B6D9BB19C0328200B5C13A /* data1.txt */; };
 		E206527E19B9DAF20017D0A3 /* PropertyDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E206527D19B9DAF20017D0A3 /* PropertyDemo.swift */; };
 		E206528019B9E7D40017D0A3 /* ProtocolDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E206527F19B9E7D40017D0A3 /* ProtocolDemo.swift */; };
 		E29A182819B0788000FD78A7 /* OptionalUnwrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29A182719B0788000FD78A7 /* OptionalUnwrap.swift */; };
@@ -41,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		955FC10619C1343500680655 /* QuickNBubbleSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickNBubbleSort.swift; sourceTree = "<group>"; };
+		95B6D9BB19C0328200B5C13A /* data1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data1.txt; sourceTree = "<group>"; };
 		E206527D19B9DAF20017D0A3 /* PropertyDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyDemo.swift; sourceTree = "<group>"; };
 		E206527F19B9E7D40017D0A3 /* ProtocolDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolDemo.swift; sourceTree = "<group>"; };
 		E29A182719B0788000FD78A7 /* OptionalUnwrap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalUnwrap.swift; sourceTree = "<group>"; };
@@ -97,6 +101,7 @@
 		E2BF094619BF2912008F3A78 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				95B6D9BB19C0328200B5C13A /* data1.txt */,
 				E2BF094719BF2921008F3A78 /* data.txt */,
 			);
 			name = Resource;
@@ -137,6 +142,7 @@
 				E2BF094619BF2912008F3A78 /* Resource */,
 				E2CE123219A762F3008E72E8 /* Images.xcassets */,
 				E2CE122919A762F3008E72E8 /* Supporting Files */,
+				955FC10619C1343500680655 /* QuickNBubbleSort.swift */,
 			);
 			path = DemoClass;
 			sourceTree = "<group>";
@@ -271,6 +277,7 @@
 			files = (
 				E2CE123119A762F3008E72E8 /* Main.storyboard in Resources */,
 				E2BF094819BF2921008F3A78 /* data.txt in Resources */,
+				95B6D9BC19C0328200B5C13A /* data1.txt in Resources */,
 				E2CE123319A762F3008E72E8 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +300,7 @@
 				E206527E19B9DAF20017D0A3 /* PropertyDemo.swift in Sources */,
 				E2CE125819A78369008E72E8 /* DemoPolymorphism.swift in Sources */,
 				E2CE125A19A7843D008E72E8 /* Circle.swift in Sources */,
+				955FC10719C1343500680655 /* QuickNBubbleSort.swift in Sources */,
 				E206528019B9E7D40017D0A3 /* ProtocolDemo.swift in Sources */,
 				E2CE125019A76CC7008E72E8 /* Rectangle.swift in Sources */,
 				E2BF094519BF26F4008F3A78 /* WordCounter.swift in Sources */,

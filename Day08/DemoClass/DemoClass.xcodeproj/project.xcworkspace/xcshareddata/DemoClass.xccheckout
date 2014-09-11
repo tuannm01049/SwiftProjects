@@ -12,20 +12,24 @@
 	<dict>
 		<key>569EFBB10AD9E9525B1B4E1A257E7177D0813F21</key>
 		<string>http://jira:7990/scm/obs/source.git</string>
+		<key>B435A82EC23A9DEFACD9C54B20532F2CF7B83B51</key>
+		<string>https://github.com/tuannm01049/SwiftProjects.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Day05/DemoClass/DemoClass.xcodeproj</string>
+	<string>Day08/DemoClass/DemoClass.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>569EFBB10AD9E9525B1B4E1A257E7177D0813F21</key>
+		<string>../../../../../iOS8Swift</string>
+		<key>B435A82EC23A9DEFACD9C54B20532F2CF7B83B51</key>
 		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>http://jira:7990/scm/obs/source.git</string>
+	<string>https://github.com/tuannm01049/SwiftProjects.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>569EFBB10AD9E9525B1B4E1A257E7177D0813F21</string>
+	<string>B435A82EC23A9DEFACD9C54B20532F2CF7B83B51</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -35,6 +39,14 @@
 			<string>569EFBB10AD9E9525B1B4E1A257E7177D0813F21</string>
 			<key>IDESourceControlWCCName</key>
 			<string>iOS8Swift</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B435A82EC23A9DEFACD9C54B20532F2CF7B83B51</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Swift%20Projects</string>
 		</dict>
 	</array>
 </dict>

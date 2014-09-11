@@ -22,11 +22,11 @@ class WordCounter: GenericVC {
     var WordCountNSort: [Word] = [Word]()
     override func viewDidLoad() {
         super.viewDidLoad()
-      /*  if let plainString = self.readFileToString("data.txt") {
-            self.countWord(plainString)
-        }*/
+//        if let plainString = self.readFileToString("data1.txt") {
+//            self.countWord(plainString)
+//        }
         
-        self.countWord("I like this. i hate that dog. Cat is fun,joke,love: is it cool?. dog,flower;dog. hate is bad hate.Love is all around. Red blue green yellow violet sexy hate around cool around around yellow")
+        self.countWord(" yellow I like this. i hate that dog. Cat is fun,joke,love: is it cool?. dog,flower;dog. hate is bad hate.Love is all around. Red blue green yellow violet sexy hate around cool around around yellow")
         
         
         //self.countWord("aa nn mm cc kk ee cc bb bb ee dd aa")
@@ -44,14 +44,14 @@ class WordCounter: GenericVC {
     }
     func shouldRemoveThisWord(word: String) -> Bool {
     
-        let dummyWords = ["", " ","a", "all", "an", "i", "in", "is", "it", "are", "were", "he", "she", "they", "it's", "my", "his", "her", "their", "this", "that", "very", "much"]
+        let dummyWords = ["", " ","a", "all", "an", "i", "in", "is", "it", "are", "were", "he", "she", "they", "it's", "my", "his", "her", "their", "this", "that", "very", "much", "of", "the", "and", "its", "to", "not", "but"]
         if contains(dummyWords, word) { return true }
         
         return false;
     }
     
     func countWord(inputString: String) {
-        let separator = NSMutableCharacterSet(charactersInString: " .,:;?!")
+        let separator = NSMutableCharacterSet(charactersInString: " .,:;?!--()'%\n")
         let rawWordArray = inputString.lowercaseString.componentsSeparatedByCharactersInSet(separator)
        
         /* ok nhung khong sort duoc

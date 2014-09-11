@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6206.8" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="eCF-gs-pNJ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6206.9" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="eCF-gs-pNJ">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7026.1"/>
     </dependencies>
@@ -151,6 +151,23 @@
                                             <segue destination="7IB-uk-Ddi" kind="show" id="hWI-J4-nRr"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="baP-LD-Rzp" style="IBUITableViewCellStyleDefault" id="Am1-D7-QoF">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Am1-D7-QoF" id="TIb-EJ-IhE">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Quick Sort &amp; Bubble Sort" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="baP-LD-Rzp">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="WHY-2v-gBR" kind="show" id="pYK-44-9SU"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -163,7 +180,25 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fX1-hZ-kkI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-754" y="210"/>
+            <point key="canvasLocation" x="-1064" y="253"/>
+        </scene>
+        <!--QuickN Bubble Sort-->
+        <scene sceneID="rWd-Eh-ImZ">
+            <objects>
+                <viewController id="WHY-2v-gBR" customClass="QuickNBubbleSort" customModule="DemoClass" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EaO-ef-eRW"/>
+                        <viewControllerLayoutGuide type="bottom" id="ei6-76-QIR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PsP-gC-hRU">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Elv-9K-rF5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1064" y="1108"/>
         </scene>
         <!--Protocol-->
         <scene sceneID="sGF-av-g3E">
@@ -181,7 +216,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lja-Xw-9aI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-19" y="180"/>
+            <point key="canvasLocation" x="-58" y="180"/>
         </scene>
         <!--Word Counter-->
         <scene sceneID="I0c-cG-pwX">
@@ -199,7 +234,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bh1-pa-5w3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-256" y="243"/>
+            <point key="canvasLocation" x="-426" y="180"/>
         </scene>
         <!--Optional Unwrap-->
         <scene sceneID="6gi-3B-2fi">
@@ -217,7 +252,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eB4-E5-So3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-58" y="326"/>
+            <point key="canvasLocation" x="654" y="862"/>
         </scene>
         <!--Struct-->
         <scene sceneID="S7l-Kp-Qyv">
@@ -235,7 +270,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kNG-yU-lZH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="133" y="149"/>
+            <point key="canvasLocation" x="654" y="180"/>
         </scene>
         <!--Demo Composite-->
         <scene sceneID="EnJ-rD-0uD">
@@ -253,7 +288,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RgM-fP-2Gy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-118" y="987"/>
+            <point key="canvasLocation" x="-426" y="867"/>
         </scene>
         <!--Property Demo-->
         <scene sceneID="Gdm-jJ-o33">
@@ -271,7 +306,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Hd-zT-cW0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="328" y="271"/>
+            <point key="canvasLocation" x="296" y="180"/>
         </scene>
         <!--Demo Polymorphism-->
         <scene sceneID="gaB-CV-cv8">
@@ -289,7 +324,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IY5-Oa-tOs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="290" y="872"/>
+            <point key="canvasLocation" x="-58" y="867"/>
         </scene>
         <!--Demo Shape-->
         <scene sceneID="9zE-5t-Sxp">
@@ -307,7 +342,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dd7-qc-6Uc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="555" y="186"/>
+            <point key="canvasLocation" x="296" y="862"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="CYW-lM-nI0">
@@ -328,7 +363,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8wl-Md-MRg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1108" y="461"/>
+            <point key="canvasLocation" x="-1481" y="253"/>
         </scene>
     </scenes>
 </document>

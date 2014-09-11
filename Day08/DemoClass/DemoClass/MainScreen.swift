@@ -30,34 +30,34 @@ class MainScreen: UITableViewController {
         super.viewDidLoad()
     }
 
-    override func tableView(tableView: UITableView!, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete method implementation.
-        // Return the number of rows in the section.
-        return self.menuData.count
-    }
-
-    
-    override func tableView(tableView: UITableView!, cellForRowAtIndexPath indexPath: NSIndexPath!) -> UITableViewCell! {
-        var resultCell: UITableViewCell
-        if let cell = tableView.dequeueReusableCellWithIdentifier("id") as? UITableViewCell {
-            resultCell = cell
-        } else {
-            resultCell = UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: "id")
-            resultCell.accessoryType = UITableViewCellAccessoryType.DisclosureIndicator
-            let menu =  self.menuData[indexPath!.row]
-            resultCell.textLabel.text = menu[TITLE]
-        }
-
-        return resultCell
-    }
-    
-    override func tableView(tableView: UITableView!, didSelectRowAtIndexPath indexPath: NSIndexPath!) {
-        let menu =  self.menuData[indexPath!.row]
-        let detailVCClass: AnyClass = NSClassFromString(menu[CLASS])
-     
-        
-        
-        
-    }
+//    override func tableView(tableView: UITableView!, numberOfRowsInSection section: Int) -> Int {
+//        // #warning Incomplete method implementation.
+//        // Return the number of rows in the section.
+//        return self.menuData.count
+//    }
+//
+//    
+//    override func tableView(tableView: UITableView!, cellForRowAtIndexPath indexPath: NSIndexPath!) -> UITableViewCell! {
+//        var resultCell: UITableViewCell
+//        if let cell = tableView.dequeueReusableCellWithIdentifier("id") as? UITableViewCell {
+//            resultCell = cell
+//        } else {
+//            resultCell = UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: "id")
+//            resultCell.accessoryType = UITableViewCellAccessoryType.DisclosureIndicator
+//            let menu =  self.menuData[indexPath!.row]
+//            resultCell.textLabel.text = menu[TITLE]
+//        }
+//
+//        return resultCell
+//    }
+//    
+//    override func tableView(tableView: UITableView!, didSelectRowAtIndexPath indexPath: NSIndexPath!) {
+//        let menu =  self.menuData[indexPath!.row]
+//        let detailVCClass: AnyClass = NSClassFromString(menu[CLASS])
+//     
+//        
+//        
+//        
+//    }
 
 }
